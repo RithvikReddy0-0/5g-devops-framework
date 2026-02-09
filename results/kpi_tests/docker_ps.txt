@@ -1,0 +1,15 @@
+CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS          PORTS                                                      NAMES
+b3b6daff4279   free5gc/n3iwue:latest     "bash -c 'ip route d…"   18 minutes ago   Up 18 minutes                                                              n3iwue
+2ae4be07e474   free5gc/ueransim:latest   "./nr-gnb -c ./confi…"   18 minutes ago   Up 18 minutes                                                              ueransim
+57e17222d6fc   free5gc/chf:v4.2.0        "./chf -c ./config/c…"   18 minutes ago   Up 18 minutes   2122/tcp, 8000/tcp                                         chf
+0b76bea61a1a   free5gc/ausf:v4.2.0       "./ausf -c ./config/…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   ausf
+9288cd85cbca   free5gc/udr:v4.2.0        "./udr -c ./config/u…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   udr
+d3ff4df6b1b6   free5gc/amf:v4.2.0        "./amf -c ./config/a…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   amf
+e957283fe429   free5gc/nssf:v4.2.0       "./nssf -c ./config/…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   nssf
+3d98f51dc4c6   free5gc/pcf:v4.2.0        "./pcf -c ./config/p…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   pcf
+03eaabd5db3a   free5gc/webui:v4.2.0      "./webui -c ./config…"   18 minutes ago   Up 18 minutes   0.0.0.0:2121-2122->2121-2122/tcp, 0.0.0.0:5000->5000/tcp   webui
+6106cb09ec4f   free5gc/smf:v4.2.0        "./smf -c ./config/s…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   smf
+c0b8e721f2a3   free5gc/udm:v4.2.0        "./udm -c ./config/u…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   udm
+c4db77ce6670   free5gc/nef:v4.2.0        "./nef -c ./config/n…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   nef
+c2cef7e932c0   free5gc/nrf:v4.2.0        "./nrf -c ./config/n…"   18 minutes ago   Up 18 minutes   8000/tcp                                                   nrf
+8727eea2de8c   mongo:4.4                 "docker-entrypoint.s…"   18 minutes ago   Up 18 minutes   27017/tcp                                                  mongodb
