@@ -1,0 +1,702 @@
+Attaching to 5g-devops-framework_ue-video_2, 5g-devops-framework_ue-video_4, 5g-devops-framework_ue-video_1, 5g-devops-framework_ue-file_1, 5g-devops-framework_ue-video_5, 5g-devops-framework_ue-file_2, 5g-devops-framework_ue-video_3, 5g-devops-framework_ue-web_3, 5g-devops-framework_ue-web_2, 5g-devops-framework_ue-web_1, 5g-devops-framework_server_1
+server_1    |  * Serving Flask app 'server'
+server_1    |  * Debug mode: off
+server_1    | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+server_1    |  * Running on all addresses (0.0.0.0)
+server_1    |  * Running on http://127.0.0.1:5000
+server_1    |  * Running on http://172.18.0.2:5000
+server_1    | [33mPress CTRL+C to quit[0m
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:50] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:50] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:50] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:50] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:50] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:50] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:50] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:50] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:50] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:50] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:51] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:51] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:51] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:51] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:51] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:51] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:51] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:51] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:51] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:51] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:52] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:52] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:52] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:52] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:52] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:52] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:52] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:52] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:52] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:52] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:53] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:53] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:53] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:53] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:53] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:53] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:53] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:53] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:53] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:53] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:54] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:54] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:54] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:54] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:54] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:54] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:54] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:54] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:54] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:54] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:55] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:55] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:55] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:55] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:55] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:55] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:55] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:55] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:55] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:55] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:56] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:56] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:56] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:56] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:56] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:56] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:56] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:56] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:56] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:56] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:57] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:57] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:57] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:57] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:57] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:57] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:57] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:57] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:57] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:57] "POST /video HTTP/1.1" 200 -
+server_1    | [2026-04-05 04:23:50] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:50] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:50] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:50] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:50] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:50] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:50] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:50] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:50] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:50] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:51] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:51] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:51] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:51] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:51] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:51] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:51] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:51] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:51] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:51] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:52] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:52] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:52] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:52] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:52] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:52] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:52] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:52] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:52] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:52] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:53] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:53] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:53] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:53] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:53] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:53] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:53] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:53] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:53] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:53] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:54] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:54] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:54] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:54] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:54] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:54] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:54] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:54] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:54] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:54] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:55] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:55] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:55] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:55] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:55] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:55] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:55] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:55] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:55] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:55] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:56] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:56] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:56] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:56] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:56] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:56] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:56] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:56] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:56] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:56] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:57] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:57] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:57] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:57] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:57] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:57] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:57] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:57] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:57] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:57] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:58] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:58] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:58] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:58] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:58] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:58] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:58] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:58] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:58] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:58] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:23:59] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:23:59] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:23:59] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:23:59] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:23:59] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:23:59] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:23:59] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:23:59] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:23:59] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:23:59] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:00] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:00] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:00] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:00] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:00] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:00] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:00] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:00] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:00] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:00] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:01] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:01] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:01] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:01] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:01] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:01] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:01] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:01] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:01] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:01] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:02] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:02] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:02] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:02] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:02] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:02] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:02] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:02] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:02] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:02] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:03] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:03] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:03] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:03] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:03] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:03] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:03] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:03] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:03] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:03] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:04] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:04] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:04] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:04] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:04] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:04] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:04] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:04] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:04] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:04] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:05] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:05] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:05] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:05] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:05] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:05] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:05] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:05] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:05] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:05] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:06] "GET /web HTTP/1.1" 200 -
+server_1    | [2026-04-05 04:23:58] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:58] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:58] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:58] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:58] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:58] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:58] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:58] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:58] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:58] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:59] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:59] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:59] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:23:59] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:59] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:59] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:59] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:59] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:23:59] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:23:59] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:00] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:00] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:00] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:00] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:00] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:00] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:00] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:00] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:00] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:00] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:01] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:01] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:01] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:01] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:01] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:01] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:01] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:01] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:01] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:01] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:02] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:02] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:02] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:02] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:02] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:02] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:02] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:02] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:02] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:02] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:03] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:03] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:03] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:03] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:03] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:03] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:03] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:03] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:03] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:03] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:04] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:04] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:04] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:04] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:04] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:04] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:04] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:04] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:04] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:04] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:05] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:05] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:05] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:05] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:05] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:05] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:05] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:05] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:05] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:05] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:06] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:06] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:06] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:06] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:06] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:06] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:06] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:06] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:06] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:06] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:07] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:07] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:07] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:07] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:07] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:07] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:07] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:07] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:07] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:07] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:08] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:08] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:08] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:08] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:08] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:08] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:08] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:08] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:09] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:09] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:09] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:09] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:09] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:09] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:09] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:09] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:09] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:09] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:10] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:10] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:10] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:10] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:10] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:10] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:10] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:10] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:10] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:10] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:11] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:11] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:11] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:11] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:11] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:11] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:11] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:11] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:12] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:12] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:12] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:12] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:12] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:12] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:12] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:12] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:12] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:12] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:13] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:13] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:13] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:13] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:13] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:13] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:13] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:13] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:13] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:13] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:14] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:14] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:14] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:14] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:14] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:14] "GET /web HTTP/1.1" 200 -
+server_1    | [2026-04-05 04:24:06] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:06] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:06] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:06] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:06] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:06] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:06] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:06] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:06] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:07] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:07] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:07] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:07] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:07] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:07] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:07] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:07] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:07] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:07] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:08] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:08] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:08] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:08] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:08] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:08] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:08] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:08] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:09] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:09] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:09] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:09] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:09] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:09] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:09] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:09] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:09] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:09] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:10] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:10] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:10] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:10] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:10] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:10] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:10] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:10] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:10] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:10] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:11] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:11] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:11] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:11] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:11] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:11] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:11] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:11] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:12] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:12] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:12] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:12] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:12] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:12] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:12] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:12] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:12] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:12] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:13] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:13] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:13] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:13] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:13] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:13] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:13] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:13] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:13] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:13] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:14] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:14] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:14] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:14] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:14] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:14] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:14] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:14] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:14] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:14] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:15] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:15] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:15] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:15] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:15] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:15] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:15] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:15] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:15] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:15] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:16] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:16] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:16] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:16] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:16] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:16] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:16] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:16] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:16] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:16] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:17] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:17] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:17] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:17] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:17] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:17] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:17] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:17] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:17] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:17] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:18] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:18] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:18] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:18] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:18] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:18] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:18] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:18] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:18] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:18] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:19] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:19] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:19] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:19] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:19] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:19] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:19] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:19] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:19] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:19] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:20] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:20] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:20] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:20] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:20] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:20] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:20] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:20] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:20] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:20] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:21] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:21] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:21] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:21] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:21] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:21] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:21] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:21] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:21] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:21] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:22] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:22] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:22] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:22] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:22] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:22] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:22] "GET /web HTTP/1.1" 200 -
+server_1    | [2026-04-05 04:24:14] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:14] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:14] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:14] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:15] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:15] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:15] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:15] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:15] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:15] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:15] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:15] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:15] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:15] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:16] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:16] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:16] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:16] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:16] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:16] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:16] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:16] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:16] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:16] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:17] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:17] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:17] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:17] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:17] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:17] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:17] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:17] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:17] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:17] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:18] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:18] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:18] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:18] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:18] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:18] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:18] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:18] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:18] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:18] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:19] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:19] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:19] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:19] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:19] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:19] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:19] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:19] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:19] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:19] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:20] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:20] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:20] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:20] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:20] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:20] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:20] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:20] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:20] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:20] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:21] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:21] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:21] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:21] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:21] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:21] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:21] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:21] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:21] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:21] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:22] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:22] SERVER | FILE → Slice Assigned | Priority: 2 | Bandwidth: medium | Size: 500000
+server_1    | [2026-04-05 04:24:22] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:22] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 1000000
+server_1    | [2026-04-05 04:24:22] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:22] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | [2026-04-05 04:24:22] SERVER | WEB → Slice Assigned | Priority: 3 | Bandwidth: low | Size: 0
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:22] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:22] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:22] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:23] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:23] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:23] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:23] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:23] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:23] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:23] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:23] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:23] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:23] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:24] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:24] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:24] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:24] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:24] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:24] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:24] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:24] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:24] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:24] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:25] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:25] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:25] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:25] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.3 - - [05/Apr/2026 04:24:25] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.4 - - [05/Apr/2026 04:24:25] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.5 - - [05/Apr/2026 04:24:25] "GET /web HTTP/1.1" 200 -
+server_1    | 172.18.0.6 - - [05/Apr/2026 04:24:25] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.7 - - [05/Apr/2026 04:24:25] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.8 - - [05/Apr/2026 04:24:26] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.10 - - [05/Apr/2026 04:24:26] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.9 - - [05/Apr/2026 04:24:26] "POST /file HTTP/1.1" 200 -
+server_1    | 172.18.0.11 - - [05/Apr/2026 04:24:26] "POST /video HTTP/1.1" 200 -
+server_1    | 172.18.0.12 - - [05/Apr/2026 04:24:26] "POST /video HTTP/1.1" 200 -
+server_1    | [2026-04-05 04:24:22] SERVER | VIDEO → Slice Assigned | Priority: 1 | Bandwidth: high | Size: 10000005g-devops-framework_server_1 exited with code 137
+5g-devops-framework_ue-video_2 exited with code 137
+5g-devops-framework_ue-file_1 exited with code 137
+5g-devops-framework_ue-video_1 exited with code 137
+5g-devops-framework_ue-file_2 exited with code 137
+5g-devops-framework_ue-video_3 exited with code 137
+5g-devops-framework_ue-video_5 exited with code 137
+5g-devops-framework_ue-video_4 exited with code 137
+5g-devops-framework_ue-web_1 exited with code 137
+5g-devops-framework_ue-web_3 exited with code 137
+5g-devops-framework_ue-web_2 exited with code 137

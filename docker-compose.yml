@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./ues
+    ports:
+      - "5000:5000"
+    command: python server.py
+
+  ue-video:
+    build: ./ues
+    environment:
+      - UE_TYPE=video
+      - SERVER_URL=http://server:5000
+    command: python ue_client.py
+    depends_on:
+      - server
+
+  ue-file:
+    build: ./ues
+    environment:
+      - UE_TYPE=file
+      - SERVER_URL=http://server:5000
+    command: python ue_client.py
+    depends_on:
+      - server
+
+  ue-web:
+    build: ./ues
+    environment:
+      - UE_TYPE=web
+      - SERVER_URL=http://server:5000
+    command: python ue_client.py
+    depends_on:
+      - server
