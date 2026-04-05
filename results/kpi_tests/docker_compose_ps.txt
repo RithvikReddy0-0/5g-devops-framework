@@ -1,0 +1,15 @@
+NAME       IMAGE                     COMMAND                  SERVICE         CREATED          STATUS          PORTS
+amf        free5gc/amf:v4.2.0        "./amf -c ./config/a…"   free5gc-amf     27 minutes ago   Up 27 minutes   8000/tcp
+ausf       free5gc/ausf:v4.2.0       "./ausf -c ./config/…"   free5gc-ausf    27 minutes ago   Up 27 minutes   8000/tcp
+chf        free5gc/chf:v4.2.0        "./chf -c ./config/c…"   free5gc-chf     27 minutes ago   Up 27 minutes   2122/tcp, 8000/tcp
+mongodb    mongo:4.4                 "docker-entrypoint.s…"   db              27 minutes ago   Up 27 minutes   27017/tcp
+n3iwue     free5gc/n3iwue:latest     "bash -c 'ip route d…"   n3iwue          27 minutes ago   Up 27 minutes   
+nef        free5gc/nef:v4.2.0        "./nef -c ./config/n…"   free5gc-nef     27 minutes ago   Up 27 minutes   8000/tcp
+nrf        free5gc/nrf:v4.2.0        "./nrf -c ./config/n…"   free5gc-nrf     27 minutes ago   Up 27 minutes   8000/tcp
+nssf       free5gc/nssf:v4.2.0       "./nssf -c ./config/…"   free5gc-nssf    27 minutes ago   Up 27 minutes   8000/tcp
+pcf        free5gc/pcf:v4.2.0        "./pcf -c ./config/p…"   free5gc-pcf     27 minutes ago   Up 27 minutes   8000/tcp
+smf        free5gc/smf:v4.2.0        "./smf -c ./config/s…"   free5gc-smf     27 minutes ago   Up 27 minutes   8000/tcp
+udm        free5gc/udm:v4.2.0        "./udm -c ./config/u…"   free5gc-udm     27 minutes ago   Up 27 minutes   8000/tcp
+udr        free5gc/udr:v4.2.0        "./udr -c ./config/u…"   free5gc-udr     27 minutes ago   Up 27 minutes   8000/tcp
+ueransim   free5gc/ueransim:latest   "./nr-gnb -c ./confi…"   ueransim        27 minutes ago   Up 27 minutes   
+webui      free5gc/webui:v4.2.0      "./webui -c ./config…"   free5gc-webui   27 minutes ago   Up 27 minutes   0.0.0.0:2121-2122->2121-2122/tcp, 0.0.0.0:5000->5000/tcp
