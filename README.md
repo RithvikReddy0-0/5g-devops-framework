@@ -1,90 +1,237 @@
-# 5G DevOps Framework (Free5GC + UERANSIM)
+# 🚀 5G DevOps Framework with Kubernetes, Prometheus & Grafana
 
-## Overview
-This project implements a DevOps-based framework to deploy, test, and validate a cloud-native 5G-Advanced network stack in a repeatable and automated manner.
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-The deployment uses:
-- Free5GC as the 5G Core Network
-- UERANSIM as simulated gNB and UE
-- Docker Compose for automation and reproducibility
-- KPI testing using ping and iperf3
-
----
-
-## Objectives
-- Deploy Free5GC 5G Core using Docker Compose
-- Deploy simulated gNB and UE using UERANSIM
-- Perform UE registration and PDU session establishment
-- Validate end-to-end internet connectivity
-- Perform KPI tests such as latency and throughput
+A complete simulation framework for **5G network traffic generation, monitoring, and DevOps automation** using Kubernetes.
+This project demonstrates how modern telecom systems can be **observed, scaled, and optimized in real time**.
 
 ---
 
-## Project Structure
+## 📌 Project Overview
 
+This project simulates a **5G network environment** with multiple User Equipment (UE) types generating traffic.
+The system is deployed using **Kubernetes**, monitored using **Prometheus**, and visualized using **Grafana**.
+
+The goal is to replicate real-world **network slicing, traffic behavior, and observability** in a cloud-native setup.
+
+---
+
+## 🧠 Key Concepts Demonstrated
+
+- 5G Traffic Simulation (Video, Web, File transfers)
+- Kubernetes-based Microservices Deployment
+- Real-time Metrics Collection via Prometheus
+- Visualization & Monitoring with Grafana Dashboards
+- DevOps Automation using Makefile
+- Scalable Architecture with multiple UE pods
+
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────┐
+│           UE Pods (Kubernetes)          │
+│  📺 Video UE  🌐 Web UE  📁 File UE    │
+└────────────────┬────────────────────────┘
+                 │ HTTP Requests
+                 ▼
+┌─────────────────────────────────────────┐
+│        Traffic Server (Flask API)       │
+│         Exposes /metrics endpoint       │
+└──────────┬──────────────────────────────┘
+           │ Scrapes /metrics
+           ▼
+┌─────────────────────────────────────────┐
+│           Prometheus                    │
+│     Time-series metrics storage         │
+└──────────┬──────────────────────────────┘
+           │ Data source
+           ▼
+┌─────────────────────────────────────────┐
+│              Grafana                    │
+│     Real-time dashboards & alerts       │
+└─────────────────────────────────────────┘
+```
+
+---
+
+## ⚙️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| **Kubernetes** | Container orchestration |
+| **Docker** | Containerization |
+| **Python (Flask)** | Traffic server & metrics endpoint |
+| **Prometheus** | Metrics scraping & storage |
+| **Grafana** | Monitoring dashboards |
+| **Makefile** | DevOps automation |
+| **WSL (Linux)** | Development environment |
+
+---
+
+## 📂 Project Structure
+
+```
 5g-devops-framework/
-│── core/free5gc/free5gc-compose/
-│── ran/UERANSIM/
-│── results/kpi_tests/
-│── docs/screenshots/
-│── scripts/
-│── README.md
-
-
----
-
-## Deployment Steps
-
-### 1. Start 5G Core (Free5GC)
-```bash
-cd core/free5gc/free5gc-compose
-docker compose up -d
-```
-Check status:
-```bash
-docker compose ps
-```
-
-### 2.Run UERANSIM gNB + UE
-Inside UERANSIM container:
-```bash
-docker exec -it ueransim bash
-./nr-ue -c config/uecfg.yaml
-```
----
-
-## KPI Testing 
-
-### Ping test (Google DNS)
-```bash
-docker exec ueransim bash -c "ping -c 20 8.8.8.8"
-```
-
-### Ping test (google.com)
-```
-docker exec ueransim bash -c "ping -c 3 google.com"
-```
-### Throughput test (iperf3)
-```
-docker exec ueransim bash -c "iperf3 -c 172.20.4.156 -t 20"
+│
+├── core/               # Core traffic server logic
+├── ues/                # User Equipment simulators
+├── k8s/                # Kubernetes manifests
+├── monitoring/         # Prometheus & Grafana configs
+├── optimization/       # Analysis and improvements
+├── logs/               # Generated logs
+├── results/            # Output results & graphs
+├── Makefile            # Automation commands
+├── docker-compose.yml  # Local testing setup
+└── analyze_logs.py     # Log analysis script
 ```
 
 ---
 
-## Results
+## 🚀 How to Run
 
-- All KPI results are stored under:
+### 1. Setup Environment
 
-- results/kpi_tests/
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
-- Including:
+### 2. Start Kubernetes System
 
-- ping logs
+```bash
+make start
+```
 
-- iperf3 throughput logs
+### 3. Verify Running Pods
 
-- docker compose status output
+```bash
+make pods
+```
 
-- UE IP output
+### 4. Check Services
 
-- Free5GC + UERANSIM container logs
+```bash
+make svc
+```
+
+### 5. View Logs
+
+```bash
+make logs
+```
+
+### 6. Open Prometheus
+
+```bash
+make prometheus
+```
+
+Navigate to: `http://localhost:9090`
+
+### 7. Open Grafana
+
+```bash
+make grafana
+```
+
+Navigate to: `http://localhost:3000`
+
+### 8. Stop the System
+
+```bash
+make stop
+```
+
+---
+
+## 🔍 What's Happening Internally
+
+### 🔹 UE Simulation
+
+Multiple pods simulate different 5G traffic profiles:
+
+| UE Type | Traffic Pattern | Use Case |
+|---|---|---|
+| 📺 Video UE | High bandwidth, sustained | Streaming |
+| 🌐 Web UE | Moderate, request-response | Browsing |
+| 📁 File UE | Bursty, large payloads | Downloads |
+
+Each UE continuously sends requests to the traffic server, mimicking real network load.
+
+### 🔹 Traffic Server
+
+- Built with **Flask**
+- Handles and classifies incoming UE requests
+- Exposes a `/metrics` endpoint in Prometheus format
+
+### 🔹 Prometheus
+
+- Scrapes `/metrics` on a configured interval
+- Stores time-series data for querying via PromQL
+
+### 🔹 Grafana
+
+Visualizes key metrics including:
+- Request rate per UE type
+- Traffic distribution across pods
+- System performance over time
+
+---
+
+## 📈 Sample Output
+
+- Real-time traffic logs per UE pod
+- Prometheus metrics at `/metrics`
+- Grafana dashboards with live graphs
+- Traffic distribution plots from `analyze_logs.py`
+
+---
+
+## ⚠️ Challenges & Solutions
+
+| Challenge | Solution |
+|---|---|
+| `ErrImageNeverPull` in Kubernetes | Fixed image builds; configured local Docker registry correctly |
+| Git authentication errors | Switched to SSH key authentication |
+| Merge conflicts | Resolved using `git rebase` and branch hygiene |
+| Prometheus config issues | Debugged scrape targets; verified endpoint accessibility |
+| Pod-to-pod communication failures | Corrected Kubernetes service endpoints and DNS resolution |
+
+---
+
+## 💡 Key Learnings
+
+- Real-world DevOps workflows in a cloud-native environment
+- Kubernetes debugging techniques (`kubectl logs`, `describe`, `exec`)
+- Monitoring and observability for distributed systems
+- Managing Git conflicts in collaborative/production scenarios
+
+---
+
+## 🔥 Future Improvements
+
+- [ ] Network slicing implementation per UE type
+- [ ] AI-based traffic optimization and anomaly detection
+- [ ] Auto-scaling policies based on live traffic load
+- [ ] Integration with a real 5G core (Open5GS / OAI)
+
+---
+
+## 👨‍💻 Author
+
+**Rithvik Reddy**
+Computer Science Student | DevOps & Cloud-Native Enthusiast
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub — it helps others discover it!
